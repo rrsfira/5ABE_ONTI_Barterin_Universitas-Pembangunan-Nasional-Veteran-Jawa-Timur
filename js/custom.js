@@ -96,7 +96,7 @@ document.getElementById("open-form-buttoon").addEventListener("click", function 
     document.getElementById("popupp-form").style.display = "block";
 });
 
-document.querySelector(".closse-button").addEventListener("click", function () {
+document.querySelector(".close-buttonnnn").addEventListener("click", function () {
     document.getElementById("popupp-form").style.display = "none";
 });
 
