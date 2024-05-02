@@ -78,13 +78,13 @@
                 <button id="convert-button" class="btn  my-2 my-sm-0 nav_search-btn" type="submit">
                 </button>
               </form>
-              <a class="order_online" style="color: #ffffff;" id="open-form-button">
+              <a class="order_online" style="color: #ffffff;" id="open-form-buttoon">
                 <strong>100</strong>
                 <img src="images/koin.png" alt="WhatsApp Icon" width="19" height="19">
               </a>
-              <div id="popup-form" class="popup">
+              <div id="popupp-form" class="popup">
                 <div class="popup-content">
-                  <span class="close-button">&times;</span>
+                  <span class="closse-button">&times;</span>
                   <h2>Convert Coins to Cash</h2>
                   <form id="convert-form">
                     <label for="coins" style="color: #ffffff;">Number of Coins:</label><br>
@@ -782,8 +782,10 @@
       var confirmationMessage = 'Thank you, ' + name + '! Your order has been confirmed. Layanan: ' + pilih;
       document.getElementById('confirmation-messagee').textContent = confirmationMessage;
     });
-    document.getElementById('open-form-button').addEventListener('click', function () {
-      document.getElementById('popup-form').style.display = 'block';
+
+    
+    document.getElementById('open-form-buttoon').addEventListener('click', function () {
+      document.getElementById('popupp-form').style.display = 'block';
     });
     var convertForm = document.getElementById('convert-form');
     var coinsInput = document.getElementById('coins');
