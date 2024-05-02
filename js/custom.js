@@ -91,6 +91,21 @@ window.addEventListener("click", function (event) {
     }
 });
 
+
+document.getElementById("open-form-buttoon").addEventListener("click", function () {
+    document.getElementById("popupp-form").style.display = "block";
+});
+
+document.querySelector(".closse-button").addEventListener("click", function () {
+    document.getElementById("popupp-form").style.display = "none";
+});
+
+window.addEventListener("click", function (event) {
+    if (event.target == document.getElementById("popupp-form")) {
+        document.getElementById("popupp-form").style.display = "none";
+    }
+});
+
 document.getElementById("open-form-buttonnn").addEventListener("click", function () {
     document.getElementById("popup-formm").style.display = "block";
 });
