@@ -1142,3 +1142,31 @@ option {
 #order-confirmation-text.visible {
   display: block;
 }
+
+.closse-button {
+  color: #ffffff;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.closse-button:hover,
+.closse-button:focus {
+  color: rgb(255, 255, 255);
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.closse-button {
+  color: #ffffff;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.closse-button:hover,
+.closse-button:focus {
+  color: rgb(255, 255, 255);
+  text-decoration: none;
+  cursor: pointer;
+}
