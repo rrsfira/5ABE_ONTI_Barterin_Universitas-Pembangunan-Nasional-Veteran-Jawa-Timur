@@ -92,11 +92,11 @@ window.addEventListener("click", function (event) {
 });
 
 
-document.getElementById("open-form-buttonnnn").addEventListener("click", function () {
+document.getElementById("open-form-buttoon").addEventListener("click", function () {
     document.getElementById("popupp-form").style.display = "block";
 });
 
-document.querySelector(".close-buttonnnn").addEventListener("click", function () {
+document.querySelector(".close-buttoon").addEventListener("click", function () {
     document.getElementById("popupp-form").style.display = "none";
 });
 
