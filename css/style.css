@@ -1222,29 +1222,29 @@ option {
 }
 
 
-.closse-button {
+.close-buttoon {
   color: #ffffff;
   float: right;
   font-size: 28px;
   font-weight: bold;
 }
 
-.closse-button:hover,
-.closse-button:focus {
+.close-buttoon:hover,
+.close-buttoon:focus {
   color: rgb(255, 255, 255);
   text-decoration: none;
   cursor: pointer;
 }
 
-.closse-button {
+.close-buttoon {
   color: #ffffff;
   float: right;
   font-size: 28px;
   font-weight: bold;
 }
 
-.closse-button:hover,
-.closse-button:focus {
+.close-buttoon:hover,
+.close-buttoon:focus {
   color: rgb(255, 255, 255);
   text-decoration: none;
   cursor: pointer;
