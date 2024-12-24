@@ -232,8 +232,8 @@ a:focus {
 
 .navbar-brand span {
   font-weight: bold;
-  font-size: 32px;
-  color: #ffffff;
+  font-size: 38px;
+  color: #815e0e;
 }
 
 .custom_nav-container {
@@ -246,7 +246,7 @@ a:focus {
 
 .custom_nav-container .navbar-nav .nav-item .nav-link {
   padding: 5px 20px;
-  color: #ffffff;
+  color: #815e0e;
   text-align: center;
   text-transform: uppercase;
   border-radius: 5px;
@@ -256,7 +256,7 @@ a:focus {
 
 .custom_nav-container .navbar-nav .nav-item:hover .nav-link,
 .custom_nav-container .navbar-nav .nav-item.active .nav-link {
-  color: #ffbe33;
+  color: #815e0e;
 }
 
 .custom_nav-container .nav_search-btn {
@@ -293,7 +293,7 @@ a:focus {
 }
 
 .user_option .user_link:hover {
-  color: #ffbe33;
+  color: #815e0e;
   text-decoration-color: #ffffff;
 }
 
@@ -319,14 +319,14 @@ a:focus {
 }
 
 .user_option .cart_link:hover svg {
-  fill: #ffbe33;
+  fill: #815e0e;
   text-decoration-color: #ffffff;
 }
 
 .user_option .order_online {
   display: inline-block;
   padding: 8px 30px;
-  background-color: #ffbe33;
+  background-color: #815e0e;
   color: #ffffff;
   border-radius: 45px;
   -webkit-transition: all 0.3s;
@@ -336,7 +336,7 @@ a:focus {
 }
 
 .user_option .order_online:hover {
-  background-color: #e69c00;
+  background-color: #815e0e;
   text-decoration-color: #ffffff;
 }
 
@@ -428,14 +428,14 @@ a:focus {
 }
 
 .slider_section .detail-box {
-  color: #ffffff;
+  color: #815e0e;
   margin-bottom: 145px;
 }
 
 .slider_section .detail-box h1 {
   font-size: 3.5rem;
   font-weight: bold;
-  margin-bottom: 15px;
+  margin-bottom: 16px;
 }
 
 .slider_section .detail-box p {
@@ -445,7 +445,7 @@ a:focus {
 .slider_section .detail-box a {
   display: inline-block;
   padding: 10px 45px;
-  background-color: #ffbe33;
+  background-color: #815e0e;
   color: #ffffff;
   border-radius: 45px;
   -webkit-transition: all 0.3s;
@@ -455,7 +455,7 @@ a:focus {
 }
 
 .slider_section .detail-box a:hover {
-  background-color: #e69c00;
+  background-color: #815e0e;
 }
 
 .slider_section .img-box img {
@@ -474,7 +474,7 @@ a:focus {
 }
 
 .slider_section .carousel-indicators li {
-  background-color: #ffffff;
+  background-color: #815e0e;
   width: 12px;
   height: 12px;
   border-radius: 100%;
@@ -484,7 +484,7 @@ a:focus {
 .slider_section .carousel-indicators li.active {
   width: 20px;
   height: 20px;
-  background-color: #ffbe33;
+  background-color: #815e0e;
 }
 
 .offer_section {
@@ -1248,4 +1248,11 @@ option {
   color: rgb(255, 255, 255);
   text-decoration: none;
   cursor: pointer;
+}
+
+.map_container img {
+  width: 100%;
+  height: auto; /* Menjaga rasio aspek gambar */
+  max-width: 100%; /* Mencegah gambar melebihi kontainer */
+  display: block; /* Menghapus spasi di bawah gambar */
 }
